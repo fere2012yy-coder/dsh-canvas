@@ -1,0 +1,9 @@
+# dsh-canvas bundle patch.
+#
+# Inserts the plugin row into the profile composition. The plugin is
+# client-only today: the host half is a no-op that exists so the loader can
+# mount the package and serve /plugins/dsh-canvas/client.js to the browser.
+- insert:
+    - id: canvas
+      name: 'dsh-canvas'
+      config: {}
