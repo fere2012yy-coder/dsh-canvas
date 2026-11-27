@@ -2,6 +2,10 @@
   "name": "dsh-canvas",
   "version": "0.1.0",
   "description": "DSH web plugin: a Canvas tool tab in the native right sidebar guide.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fere2012yy-coder/dsh-canvas.git"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
